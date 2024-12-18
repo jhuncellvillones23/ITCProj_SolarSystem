@@ -1,0 +1,318 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url("07a3a6f638ef7540627acf85f0933db8.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+    
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.container h1,h2,p2{
+    color:#fff;
+}
+
+a {
+    color: #9f88c6;
+    text-decoration: none;
+}
+
+
+/* Header */
+header {
+    background-image: url("Header.png");
+    color: #fff;
+    padding: 1rem 0;
+}
+
+    header h1 {
+        text-align: center;
+        margin: 0;
+        font-size: 50px;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        header nav ul {
+            margin: 0 15px;
+            text-align: center;
+        }
+
+            header nav ul a {
+                color: #fff;
+                margin: 20px;
+                font-size: 20px;
+                text-align: center;
+                font-weight: bold;
+
+                
+            }
+
+/* Home Section */
+h2{
+    padding: 2rem 0;
+    text-align: center;
+    
+}
+p2{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    display:flex;
+}
+
+
+
+/* About Section */
+.projects{
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.planet, .moons {
+    background-image: url("projbg.png");
+    padding: 1rem;
+    border-radius: 5px;
+    width: 30%;
+    margin: 1rem 0;
+}
+.planet h3{
+    margin: 0 0 0.5rem;
+    color: white;
+}
+
+    .moons  h3 {
+        margin: 0 0 0.5rem;
+        color: white;
+    }
+
+    .planet, .moons p{
+       font-size: 14px;
+       color: white;
+    }
+.sun {
+    background-image: url("projbg.png");
+    padding: 1rem;
+    border-radius: 5px;
+    width: 30%;
+    margin: 1rem 0;
+}
+
+.sun h3{
+    margin: 0 0 0.5rem;
+    color: white;
+}
+
+.sun p{
+    font-size: 14px;
+    color: white;
+}
+
+
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    display: flex;
+    align-items: end;
+    margin-top: 2in;
+}
+
+    footer a {
+        color: #9f88c6;
+    }
+
+/* Planets */
+
+
+.planets {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.planets h1,h3,p2{
+    color:#fff;
+        margin: 0 0 0.5rem;
+        color: white;
+}
+
+.planets h3{
+    font-size: 25px;
+}
+
+a {
+    color: #9f88c6;
+    text-decoration: none;
+}
+
+.planets{
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.mercury, .venus, .earth, .mars,.jupiter,.saturn,.uranus,.neptune {
+    background-image: url("projbg.png");
+    padding: 2rem;
+    border-radius: 5px;
+    width: 30%;
+    margin: 1rem 0;
+}
+
+/*Planet Mercury*/
+
+.Mercury {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    
+}
+
+.Mercury{
+    color: white;
+}
+
+.Mercury ul li h1, h5,p{
+    color:#fff;
+        margin: 0 0 0.5rem;
+        color: white;
+        text-align: center;
+}
+
+.Mercury h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+img{
+    display: block;
+    margin-left: 570px;
+    margin-top: 50px;
+}
+
+h5{
+font-size: 20px;
+margin-top: 20px;
+margin-bottom: 20px; 
+}
+
+li{
+list-style-type: none;
+}
+
+li p b{
+    color: white;
+    background-color: #534768;
+    padding: 3px;
+}
+
+/* PLANET VENUS */
+.Venus {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    
+}
+
+.Venus{
+    color: white;
+}
+
+.Venus ul li h1, h5,p{
+    color:#fff;
+        margin: 0 0 0.5rem;
+        color: white;
+        text-align: center;
+}
+
+.Venus h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+/*Planet Earth */
+
+.Earth {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    
+}
+
+.Earth{
+    color: white;
+}
+
+.Earth ul li h1, h5,p{
+    color:#fff;
+        margin: 0 0 0.5rem;
+        color: white;
+        text-align: center;
+}
+
+.Earth h1{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+/*Moons*/
+
+.Moons {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.Moons h1,h3,p2{
+    color:#fff;
+        margin: 0 0 0.5rem;
+        color: white;
+}
+
+.Moons h3{
+    font-size: 25px;
+}
+
+a {
+    color: #9f88c6;
+    text-decoration: none;
+}
+
+.Moons{
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.mmoon, .vmoon, .emoon, .mamoon,.jmoon,.smoon,.umoon,.nmoon {
+    background-image: url("projbg.png");
+    padding: 2rem;
+    border-radius: 5px;
+    width: 30%;
+    margin: 1rem 0;
+}
